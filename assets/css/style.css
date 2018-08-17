@@ -1,0 +1,171 @@
+@charset "utf-8";
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+q,
+s,
+small,
+strike,
+strong,
+sub,
+sup,
+b,
+u,
+i,
+center,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+section,
+summary,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+details,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+
+/* Force scrollbar */
+
+html {
+    overflow-y: scroll;
+}
+
+
+/* Align radios and text inputs with their label */
+
+input[type='radio'] {
+    vertical-align: text-bottom;
+}
+
+
+/* Hand cursor on clickable input elements */
+
+label,
+input[type='button'],
+input[type='submit'],
+button {
+    cursor: pointer;
+}
+
+strong {
+    font-weight: bold;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+em {
+    font-style: italic;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+sub,
+sup {
+    vertical-align: baseline;
+    position: relative;
+    font-size: 55%;
+    line-height: 0;
+}
+
+sup {
+    top: -.7em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+
+/* 1.2. Clear Fix
+========================================================================== */
+
+.cf:before,
+.cf:after {
+    display: table;
+    content: " ";
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.Muli-font {
+    font-family: 'Muli', 'Gill Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.login-page {
+    margin: 0 auto;
+    width: 70%;
+    background-color: #fff;
+    margin-top: 70px;
+    box-shadow: 0px 0px 50px -10px rgba(0, 0, 0, 0.19);
+}
+
+.text-light-gray {
+    color: #9b9b9b !important;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
