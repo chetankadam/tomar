@@ -169,3 +169,29 @@ a:focus,
 a:active {
     text-decoration: none;
 }
+
+header {
+    background: url("../images/main-background.svg") no-repeat 100% 100%;
+    background-position: 100%;
+    background-size: cover;
+    min-height: 674px;
+}
+
+.navbar-toggle {
+    background-color: #f05e53;
+}
+.navbar-toggle .icon-bar {
+    background: red;
+}
+
+.nav>li>a:hover {
+    background-color: #ca8b99;
+}
+
+.nav li a {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.43;
+    color: #fff;
+}
